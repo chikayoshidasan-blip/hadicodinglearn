@@ -6,12 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- ganti nama/judul website -->
-    <title>Website Bucin For u-Hadi Winter</title>
+    <title>Website For You Valen - HadiWinter</title>
     <style>
         body {
             /* ganti background website */
-            background-image: url(https://www.bing.com/images/search?view=detailV2&ccid=F20T7kww&id=4F2D6F7910F4E3DA7AC584650D2CC521B4D4FD48&thid=OIP.F20T7kwwVQ8Tt9dBEMEa6wHaEK&mediaurl=https%3a%2f%2fwallpapercave.com%2fwp%2fwp622070.jpg&exph=1440&expw=2560&q=wallpaper+romance+anime&simid=608012571089908957&FORM=IRPRST&ck=608375EE085E8A9596D5DDAC4666BE02&selectedIndex=1&itb=0);
-        }
+            background-image: url(https://thf.bing.com/th/id/OIP.461cyEjTQHuxXx5yA639ugHaNK?w=115&h=180&c=7&r=0&o=7&cb=thfc1&pid=1.7&rm=3);
         }
     </style>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
@@ -26,19 +25,20 @@
         <div class="lh-1 text-center mt-4">
             <!-- ganti nama -->
             <h2 class="title text-red-400 text-xl font-semibold">
-                Hei Valen apa kabar ? Selalu tetap semangat yaa menjalani hari-harinya, love u
+                Hei Valen Apakabar ? Semoga selalu baik ya dan selalu tetap semangat, jaga kesehatan ya LOVE U
             </h2>
             <!-- ganti pertanyaan -->
-            <p class="title question fs-1 text-2xl font-bold text-gray-700">Maafin gue yah, kalau gue salah?</p>
+            <p class="title question fs-1 text-2xl font-bold text-gray-700">Sebagai permintaan maaf gue buatkan ini,
+                maafin yah ?</p>
         </div>
         <div class="buttons mt-5 flex justify-around">
             <!-- ganti tulisan tombol -->
             <button type="button"
                 class="btn-yes bg-green-500 rounded text-white text-3xl px-2 pt-1 pb-2 animate__pulse animate__animated animate__infinite">
-                yes
+                yes aku maafin kok LOVE U
             </button>
             <button type="button" class="btn-no bg-red-500 rounded text-white text-2xl px-2 pt-1 pb-2">
-                no
+                no gak mau maafin
             </button>
         </div>
         <div class="numbers hidden mt-5 flex justify-center">
@@ -46,8 +46,7 @@
             <a href="https://wa.me/083153120826" type="button"
                 class="bg-green-500 text-white py-1 px-2 rounded btn-yes w-100 text-xl font-bold">
                 <!-- ganti tulisan tombol link -->
-                Iu nomor gue tapi jarang on, chat di tele aja dan. Sebagai permintaan maafgue buatkan ini, I love
-                you</a>
+                Itu nomor telepon gue, you can call me sebagai uncapan maaf and terimakasih. I LOVE U</a>
         </div>
     </main>
 
@@ -105,7 +104,7 @@
 
         // ganti kata-kata kalo ditolak
         function generateMessage(count) {
-            const messages = ["no", "hmm?", "yakin?", "klik yes", "hufttt yaudah syebell", "<--"];
+            const messages = ["noo", "ehemm?", "yakin heumm", "klik yes", "hufft sybell..", "<--"];
 
             const messageIndex = Math.min(count, messages.length - 1);
             return messages[messageIndex];
